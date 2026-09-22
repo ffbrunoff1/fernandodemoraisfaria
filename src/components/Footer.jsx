@@ -18,8 +18,8 @@ export default function Footer() {
       title: "Recursos",
       links: [
         { label: "Comprar na Amazon", href: "https://www.amazon.com.br/Mercado-Geot%C3%AAxtil-outros-Geossint%C3%A9ticos-Brasil-ebook/dp/B0FTD1KQZF", external: true },
-        { label: "Prévia do Livro", href: "#", external: false },
-        { label: "Materiais Gratuitos", href: "#", external: false }
+        { label: "Ler o Livro Online", href: "/livro/", external: false },
+        { label: "Sumário dos Capítulos", href: "/livro/#sumario", external: false }
       ]
     },
     {
