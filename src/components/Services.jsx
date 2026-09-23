@@ -198,14 +198,15 @@ export default function Services() {
                 <ArrowRight className="w-5 h-5 ml-2" />
               </motion.a>
               
-              <motion.button
+              <motion.a
+                href="/livro/"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="inline-flex items-center px-8 py-4 bg-white text-primary-600 border-2 border-primary-600 font-semibold rounded-lg hover:bg-primary-50 transition-all duration-300"
               >
-                <Download className="w-5 h-5 mr-2" />
-                Prévia Gratuita
-              </motion.button>
+                <BookOpen className="w-5 h-5 mr-2" />
+                Ler o Livro Online
+              </motion.a>
             </motion.div>
           </motion.div>
         </div>

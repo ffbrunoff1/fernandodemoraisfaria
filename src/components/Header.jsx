@@ -18,6 +18,7 @@ export default function Header() {
   const navItems = [
     { href: '#sobre', label: 'Sobre' },
     { href: '#livro', label: 'Livro' },
+    { href: '/livro/', label: 'Ler Online' },
     { href: '#contato', label: 'Contato' }
   ]
 
